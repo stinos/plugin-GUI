@@ -26,7 +26,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#include "../../Audio/AudioComponent.h"
 
 OriginalRecording::OriginalRecording() : separateFiles(false),
-recordingNumber(0), experimentNumber(0), zeroBuffer(1, 50000),
+recordingNumber(0), experimentNumber(0), renameFiles(false), zeroBuffer(1, 50000),
 eventFile(nullptr), messageFile(nullptr), lastProcId(0), procIndex(0)
 {
 	/*continuousDataIntegerBuffer = new int16[10000];
