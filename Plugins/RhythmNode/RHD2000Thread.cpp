@@ -1689,6 +1689,7 @@ bool RHD2000Thread::updateBuffer()
         evalBoard->setExternalFastSettleChannel(fastSettleTTLChannel);
         evalBoard->setDacHighpassFilter(desiredDAChpf);
         evalBoard->enableDacHighpassFilter(desiredDAChpfState);
+        evalBoard->setDacGain(0);
         evalBoard->enableBoardLeds(ledsEnabled);
         evalBoard->setClockDivider(clockDivideFactor);
 
